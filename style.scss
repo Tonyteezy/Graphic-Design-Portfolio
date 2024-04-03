@@ -1,0 +1,13 @@
+.design-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 30px;
+    align-items: center;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+  
+  .design-grid .design-item:hover::after,
+  .design-item:hover::before {
+    opacity: 0.04;
+  }
